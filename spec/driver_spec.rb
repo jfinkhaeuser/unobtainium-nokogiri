@@ -11,7 +11,7 @@ require 'spec_helper'
 describe 'Unobtainium::Nokogiri::Driver' do
   it "passes unobtainium's interface checks" do
     expect do
-      require_relative '../lib/unobtainium-nokogiri/driver'
+      require 'unobtainium-nokogiri'
     end.to_not raise_error(LoadError)
   end
 
