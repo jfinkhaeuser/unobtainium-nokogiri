@@ -51,7 +51,10 @@ module Unobtainium
         open(uri) do |f|
           @meta[:uri] = uri.dup
           if f.respond_to?(:metas)
-            @meta[:headers] = f.metas.dup
+            @meta[:headers] = f.meta.dup
+            if f.respond_to?(:metas)
+              @meta[:split_headers] = f.metas.dup
+            end
             @meta[:status] = f.status.dup
             @meta[:base_uri] = f.base_uri.dup
           end
