@@ -10,10 +10,12 @@
 require 'unobtainium'
 
 module Unobtainium
+  ##
+  # Nokogiri namespace
   module Nokogiri
 
     ##
-    # TODO
+    # Driver implementation using nokogiri (and open-uri).
     class Driver
       class << self
         ##
