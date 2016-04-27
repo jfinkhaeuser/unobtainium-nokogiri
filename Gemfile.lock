@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    unobtainium-nokogiri (0.1.0)
+    unobtainium-nokogiri (0.1.1)
       unobtainium (~> 0.3)
 
 GEM
