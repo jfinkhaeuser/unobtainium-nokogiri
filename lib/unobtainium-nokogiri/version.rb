@@ -7,8 +7,8 @@
 # All rights reserved.
 #
 module Unobtainium
-module Nokogiri
-  # The current release version
-  VERSION = "0.1.0".freeze
-end # module Nokogiri
+  module Nokogiri
+    # The current release version
+    VERSION = "0.1.0".freeze
+  end # module Nokogiri
 end # module Unobtainium
