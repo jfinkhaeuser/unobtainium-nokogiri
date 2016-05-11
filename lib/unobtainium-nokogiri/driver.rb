@@ -141,4 +141,5 @@ end # module Unobtainium
 
 ::Unobtainium::Driver.register_implementation(
     ::Unobtainium::Nokogiri::Driver,
-    __FILE__)
+    __FILE__
+)
