@@ -3,6 +3,8 @@ rvm:
   - 2.0
   - 2.1
   - 2.2
-addons:
-  code_climate:
-    repo_token: ae79588d03b20a2181fc8f79ae88fbfe188a7fcaffcf1a314282e5223db0895e 
+  - 2.3
+  - 2.4
+    #  - 2.5
+script:
+  - bundle exec rake
