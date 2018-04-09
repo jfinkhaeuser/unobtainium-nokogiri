@@ -3,7 +3,7 @@
 # unobtainium-nokogiri
 # https://github.com/jfinkhaeuser/unobtainium-nokogiri
 #
-# Copyright (c) 2016 Jens Finkhaeuser and other unobtainium-nokogiri contributors.
+# Copyright (c) 2016-2018 Jens Finkhaeuser and other unobtainium-nokogiri contributors.
 # All rights reserved.
 #
 
